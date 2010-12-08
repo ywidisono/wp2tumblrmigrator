@@ -1,0 +1,4 @@
+.svn/*
+tmp/**/*
+war/WEB-INF/appengine-generated/*.*
+war/WEB-INF/classes/*.*

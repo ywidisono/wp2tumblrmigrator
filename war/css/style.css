@@ -1,0 +1,125 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: left; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-image: url(/images/backg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#Container {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 32px;
+}
+#Logo {
+	background-image: url(/images/Untitled-1.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 133px;
+	width: 400px;
+	padding-left: 150px;
+}
+#logoh1 {
+	padding-top: 10px;
+	padding-right: 80px;
+	padding-left: 20px;
+	color: #FFF;
+}
+#menu {
+	height: 53px;
+	background-image: url(/images/Untitled-2_01.png);
+}
+#social {
+	float: right;
+	width: 200px;
+	padding-top: 23px;
+}
+#content {
+	background-image: url(/images/Untitled-2_02.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 431px;
+}
+#cont1 {
+	width: 330px;
+	padding-top: 20px;
+	padding-left: 90px;
+	font-size: 12px;
+	color: #FFF;
+}
+#conte2 {
+	float: right;
+	width: 330px;
+	padding-top: 20px;
+	padding-right: 90px;
+	font-size: 12px;
+	color: #FFF;
+}
+#contall {
+	width: 660px;
+	padding-top: 20px;
+	padding-left: 90px;
+	font-size: 12px;
+	color: #FFF;
+}
+#footer {
+	background-image: url(/images/Untitled-2_03.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 343px;
+}
+#fotlinks1 {
+    width: 230px;
+	padding-top: 20px;
+	padding-left: 50px;
+	font-size: 10px;
+	padding-right: 20px;
+	height: 120px;
+}
+#fotlinks2 {
+    width: 230px;
+	float: right;
+	padding-top: 20px;
+	padding-right: 25px;
+	padding-left: 45px;
+	font-size: 10px;
+	height: 120px;
+}	
+#fotlinks3 {
+    float: right;
+	width: 230px;
+	padding-top: 20px;
+	padding-right: 50px;
+	font-size: 10px;
+	padding-left: 20px;
+	height: 120px;
+}
+#cop {
+	font-size: 9px;
+	text-align: center;
+	padding-top: 100px;
+	padding-right: 330px;
+	padding-left: 330px;
+}
+
+/* simple css-based tooltip */
+.tooltip {
+	background-color:#000;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:300px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:12px;
+
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+
+
